@@ -8,13 +8,18 @@ body {
     margin: 0;
 }
 
+html {
+
+    font-size: 15px;
+}
+
 
 
 p {
 
     color: hsl(217, 12%, 63%);
     line-height: 23px;
-    font-size: 15px;
+    
     
 }
 
@@ -22,8 +27,6 @@ p {
 
 
     text-align: center;
-    height: 310px;
-    margin-top: 20px;
     display: none;
 
 
@@ -35,18 +38,17 @@ p {
 
 
 .app-container {
-    width: 310px;
+    width: 20rem;
+    height: 22rem;
     margin: 0 auto;
     background-color: hsl(215, 26%, 13%); 
     border-radius: 5%;
-    padding: 25px;
-    margin-top: 250px;
+    padding: 1.6rem;
 
 }
 
 #first-state {
 
-    height: 330px;
 
 
 }
@@ -76,9 +78,8 @@ p {
     border-radius: 50%;
     background-color: #252d37;
     padding: 10px 17px;
-    font-size: 15px;
     color: hsl(217, 12%, 63%);
-    margin-top: 10px;
+    margin-top: .75rem;
 
 
 }
@@ -111,8 +112,7 @@ button {
     color: white;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 2rem;
 }
 
 button:hover {
@@ -124,16 +124,19 @@ button:hover {
 .rating-container {
 
     color: #fb7413;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   border-radius: 2rem;
   background-color: #252d37;
   font-weight: 500;
-  width: 60%;
+  width: 12rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 
+#ty {
 
+    margin-top: 2rem;
+}
 
